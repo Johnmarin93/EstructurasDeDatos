@@ -26,8 +26,8 @@ public class Vehiculo {
     /**
      * @param Placa the Placa to set
      */
-    public void setPlaca(String Placa) {
-        this.Placa = Placa;
+    public void setPlaca(String nplaca) {
+        this.Placa = nplaca;
     }
 
     /**

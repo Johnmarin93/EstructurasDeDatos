@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+
  */
 package estructurasdedatos.estructuraobjeto;
 
@@ -10,7 +8,9 @@ package estructurasdedatos.estructuraobjeto;
  * @author jhon_
  */
 public class Animal {
-    private float Peso;
+    
+    
+    private float peso;
     private String Raza;
     private String Color;
     private String Procedencia;
@@ -21,14 +21,14 @@ public class Animal {
      * @return the Peso
      */
     public float getPeso() {
-        return Peso;
+        return peso;
     }
 
     /**
      * @param Peso the Peso to set
      */
     public void setPeso(float Peso) {
-        this.Peso = Peso;
+        this.peso = Peso;
     }
 
     /**
@@ -41,8 +41,8 @@ public class Animal {
     /**
      * @param Raza the Raza to set
      */
-    public void setRaza(String Raza) {
-        this.Raza = Raza;
+    public void setRaza(String TiRaza) {
+        this.Raza = TiRaza;
     }
 
     /**

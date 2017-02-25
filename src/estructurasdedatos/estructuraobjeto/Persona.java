@@ -20,8 +20,8 @@ package estructurasdedatos.estructuraobjeto;
 public class Persona {
     
     private String nombre;
-    private String cedula ;
-    private String direccion= " Cra 8 # 21 - 32 loc 1";
+    private String Cedula ;
+    private String Direccion= " Cra 8 # 21 - 32 loc 1";
     private float estatura;
     private int edad;
     private String sexo;
@@ -47,28 +47,28 @@ public class Persona {
      * @return the cedula
      */
     public String getCedula() {
-        return cedula;
+        return Cedula;
     }
 
     /**
      * @param cedula the cedula to set
      */
     public void setCedula(String cedula) {
-        this.cedula = cedula;
+        this.Cedula = cedula;
     }
 
     /**
      * @return the direccion
      */
     public String getDireccion() {
-        return direccion;
+        return Direccion;
     }
 
     /**
      * @param direccion the direccion to set
      */
     public void setDireccion(String direccion) {
-        this.direccion = direccion;
+        this.Direccion = direccion;
     }
 
     /**
