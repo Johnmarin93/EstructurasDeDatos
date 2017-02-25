@@ -21,7 +21,7 @@ public class Persona {
     
     private String nombre;
     private String cedula ;
-    private String direccion;
+    private String direccion= " Cra 8 # 21 - 32 loc 10";
     private float estatura;
     private int edad;
     private String sexo;

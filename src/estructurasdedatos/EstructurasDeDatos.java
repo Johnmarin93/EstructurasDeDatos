@@ -1,4 +1,4 @@
-+/*
+/*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -6,6 +6,7 @@
 package estructurasdedatos;
 
 import estructurasdedatos.estructuraobjeto.Persona;
+import estructurasdedatos.estructuraobjeto.Vehiculo;
 
 /**
  *
@@ -23,8 +24,12 @@ public class EstructurasDeDatos {
     juan.setNombre(" Juan manuel");
     
     System.out.println("nombre:  " + juan.getNombre() + 
-            "Direccion:  " + juan.getDireccion());
+            " Direccion:  " + juan.getDireccion());
    
+    Vehiculo Mazda = new Vehiculo ();
+    Mazda.setColor(" Rojo");
+    
+    System.out.println("Mazda Color:  " + Mazda.getColor()) ;
     
     }
     
