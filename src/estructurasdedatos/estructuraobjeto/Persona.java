@@ -30,6 +30,7 @@ public class Persona {
     private boolean soltero; 
 
     /**
+     * Encapsulamos la clase
      * @return the nombre
      */
     public String getNombre() {

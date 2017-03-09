@@ -4,19 +4,23 @@
 *  Autor: John Jaiber Marin Valencia 
 *  Codigo:1088016327
  */
-package estructurasdedatos.estructuraobjeto;
+/*Definiendo el paquete donde esta la clase */
+package estructurasdedatos;
 
 /**
- *
- * @author jhon_
+ * @author John Marin Valencia
+ * Codigo 1088016327
+ * Creamos la clase Vehiculo con cada uno de sus atributos
  */
 public class Vehiculo {
     private String Placa;
     private String Modelo;
     private String Soat;
     private String Color;
+    
 
     /**
+     * Encapsulamos la clase 
      * @return the Placa
      */
     public String getPlaca() {

@@ -1,11 +1,12 @@
-/*
-
- */
-package estructurasdedatos.estructuraobjeto;
+/*Fecha:25/03/2017
+*/
+/*Definiendo el paquete donde esta la clase */
+package estructurasdedatos;
 
 /**
- *
- * @author jhon_
+ * @author John Marin Valencia
+ * Codigo 1088016327
+ * Creamos la clase animal con cada uno de sus atributos
  */
 public class Animal {
     
@@ -18,6 +19,7 @@ public class Animal {
     private int edad;
 
     /**
+     * Encapsulamos la clase
      * @return the Peso
      */
     public float getPeso() {
