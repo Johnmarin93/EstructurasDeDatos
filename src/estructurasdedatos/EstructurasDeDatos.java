@@ -4,10 +4,9 @@
 package estructurasdedatos;
 
 //Importamos la ubicacion de las clases
-import estructurasdedatos.estructuraobjeto.Persona;
-import estructurasdedatos.estructuraVector.Vector;
-import estructurasdedatos.estructuraVector.Matriz;
-import estreucturasDeDatos.estructurasListasEnlazadas.Nodopersona;
+import estreucturasDeDatos.estructurasListasEnlazadas.Listasimple;
+
+
 
 /**
  *
@@ -19,12 +18,17 @@ public class EstructurasDeDatos {
     public static void main(String[] args) {
    
             //Creamos la persona
-            Persona juan = new Persona ();
-            juan.setNombre(" Juan manuel");
-
-            System.out.println("nombre:  " + juan.getNombre() + 
-                              " Direccion:  " + juan.getDireccion());
+             
+            Listasimple l = new Listasimple();
             
+        l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
+        l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
+      
+        
+        l.listar();
+        l.eliminar(16);
+        l.listar();
+            /*
             //creamos un vehiculo con la clase vehiculo
             Vehiculo Mazda = new Vehiculo ();
             Mazda.setColor(" Rojo");
@@ -92,6 +96,7 @@ public class EstructurasDeDatos {
             
             /*Realizamos por medio de este llamado de la funcion 
             la traspuesta de la matriz*/
+           /*
             mat.traspuesta();
             
             //Definimos las matrices y asignamos sus valores 
@@ -103,11 +108,12 @@ public class EstructurasDeDatos {
             Matriz mult= new Matriz();
            
             /*Realizamos la peticion de multiplicar dos matrices y enviamos
-            los datos de las 2 matrices a multiplicar y el tamaño de la resultante*/
-            mult.multiplicion(mat1, matr2, mat3);
+           
+           los datos de las 2 matrices a multiplicar y el tamaño de la resultante*/
+           /* mult.multiplicion(mat1, matr2, mat3);
             
             //Imprimimos el resultado de la multiplicacion de matrices
-            mult.Imprimirmatriz(mat3);
+            mult.Imprimirmatriz(mat3);*/
             
             
               
