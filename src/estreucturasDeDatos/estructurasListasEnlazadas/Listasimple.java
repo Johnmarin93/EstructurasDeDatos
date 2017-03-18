@@ -58,26 +58,32 @@ public class Listasimple {
    }
    
   
-    public void eliminar(int jhon) {
-        
-    
-
-    Nodo actual, anterior;
-     boolean encontrado;
+     public void eliminar (String dato) 
+   { 
+     Nodo anterior = new Nodo();
+     boolean encontrado; //inicializa los apuntadores
      actual = cabeza; 
      anterior = null; 
-     encontrado = false; 
-     while ((actual != null) && (!encontrado)) 
+     while (actual != null)
      {  
-         encontrado = (actual.Dato == dato);   
-        if (!encontrado)  
+         if()
         {    
-            cabeza=null;    
+            anterior = actual;   
+            actual = actual.siguiente;  
         } 
-        
-    }
-         
-       
-    }
+     } // Enlace del nodo anterior con el siguiente 
+     if (actual != null)   
+     {      
+         if (actual == cabeza)  
+         {   
+             cabeza = actual.siguiente;
+         }  
+         else  
+         {   
+             anterior.siguiente = actual.siguiente;
+         }  
+     }
+
+     }
     
 }

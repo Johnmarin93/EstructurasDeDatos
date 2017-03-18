@@ -14,7 +14,7 @@ import estructurasdedatos.estructuraobjeto.Persona;
  */
 public class Nodo {
     public int Dato;
-    private Nodo siguiente;
+    Nodo siguiente;
     Persona persona = new Persona();
     /**
      * @return the dato
