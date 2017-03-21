@@ -4,6 +4,7 @@
 package estructurasdedatos;
 
 //Importamos la ubicacion de las clases
+import estreucturasDeDatos.estructurasListasEnlazadas.ListaDoble;
 import estreucturasDeDatos.estructurasListasEnlazadas.Listasimple;
 
 
@@ -21,13 +22,20 @@ public class EstructurasDeDatos {
              
             Listasimple l = new Listasimple();
             
-        l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
-        l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
+       // l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
+       // l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
       
         
         l.listar();
-        l.eliminar(16);
-        l.listar();
+   
+        ListaDoble ld = new ListaDoble();
+        ld.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
+        
+    
+        
+        ld.desplegarLista();
+        
+        
             /*
             //creamos un vehiculo con la clase vehiculo
             Vehiculo Mazda = new Vehiculo ();
