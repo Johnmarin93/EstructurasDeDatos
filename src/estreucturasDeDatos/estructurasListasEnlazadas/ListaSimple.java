@@ -15,7 +15,7 @@ import estructurasdedatos.estructuraobjeto.Persona;
  * @author jhon_
  */
 //creamos la clase  lista simple.
-public class Listasimple {
+public class ListaSimple {
     
     //definimos el primer nodo, y el ultimo nodo para luego ser utilizados
     //en la creacion de nuevos nodos.
@@ -30,7 +30,7 @@ public class Listasimple {
     
     
    //iniciamos el nodo primero en null y el ultimo en null
-   public Listasimple(){
+   public ListaSimple(){
     cabeza=null;
     cola=null;
    }

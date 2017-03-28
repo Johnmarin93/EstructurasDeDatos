@@ -4,8 +4,9 @@
 package estructurasdedatos;
 
 //Importamos la ubicacion de las clases
+import estreucturasDeDatos.estructurasListasEnlazadas.ListaCircular;
 import estreucturasDeDatos.estructurasListasEnlazadas.ListaDoble;
-import estreucturasDeDatos.estructurasListasEnlazadas.Listasimple;
+import estreucturasDeDatos.estructurasListasEnlazadas.ListaSimple;
 
 
 
@@ -18,22 +19,33 @@ public class EstructurasDeDatos {
 
     public static void main(String[] args) {
    
+       ListaCircular Lc = new ListaCircular();
+        
+       //Lc.ingresarNodo("1234", "Analisis", "12/10/11" ,10, "john marin");
+       Lc.ingresarNodo("5678","Desarrollo", "12/11/11" ,15, "john marin");
+      // Lc.ingresarNodo("91011","Implementacion", "12/12/11" ,50, "john marin");
+       Lc.listar();
+       Lc.Eliminar("1234");
+       Lc.listar();
+       Lc.Buscar("5678");
+       Lc.registrarAvance("5678", 90);
+       Lc.listar();
             //Creamos la persona
              
-            Listasimple l = new Listasimple();
-            
+          // ListaSimple l = new ListaSimple();
+           
        // l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
        // l.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
       
         
-        l.listar();
+       // l.listar();
    
-        ListaDoble ld = new ListaDoble();
-        ld.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
+        //ListaDoble ld = new ListaDoble();
+        //ld.ingresarNodo("jhon marin", "1088016327", "Mz 8 casa 6 B ", 170, 16, "M", "Colombiana", "o+", false);
         
     
         
-        ld.desplegarLista();
+       // ld.desplegarLista();
         
         
             /*
