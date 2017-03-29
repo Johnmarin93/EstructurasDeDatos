@@ -29,7 +29,7 @@ public class ListaSimple {
     Persona persona = new Persona();
     
     
-   //iniciamos el nodo primero en null y el ultimo en null
+   //Iniciamos el nodo primero en null y el ultimo en null
    public ListaSimple(){
     cabeza=null;
     cola=null;
@@ -50,15 +50,12 @@ public class ListaSimple {
        if(cabeza==null){
            cabeza=nodonuevo;
            cola=cabeza;
-       }
-       else{
+       }else{
            cola.setSiguiente(nodonuevo);
            cola = nodonuevo;
-       }
-       
-      
+       }   
    }
-   //Listamos los nodos.
+   //Metodo para Listar los nodos.
    public void listar(){
        
        actual = cabeza;
@@ -72,8 +69,19 @@ public class ListaSimple {
            actual = actual.getSiguiente();
        }
    }
-   
-  
-    
-    
+   //Meodo para Eliminar los nodos por medio de la cedula.
+   public void eliminarNdo(String Dato){
+       Nodo actual = new Nodo();
+       actual=cabeza;
+       while(actual != null){
+           if(actual.getDato().getCedula()==Dato){
+               if(actual==cabeza){
+                   cabeza=cabeza.siguiente;
+               }
+           }
+           actual = actual.siguiente;
+               }
+           }
 }
+   
+

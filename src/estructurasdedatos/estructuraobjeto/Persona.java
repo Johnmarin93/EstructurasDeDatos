@@ -29,6 +29,7 @@ public class Persona{
     private String rh;
     private boolean soltero; 
 
+    //Metodo que es llamado desde el nodo para crear las personas.
     public void crearpersona(String nombre,String Cedula, String Direccion, 
                   float estatura, int edad, String sexo, String Nacionalidad,
                   String rh, boolean soltero){

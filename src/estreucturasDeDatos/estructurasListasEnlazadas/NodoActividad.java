@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package estreucturasDeDatos.estructurasListasEnlazadas;
-import estreucturasDeDatos.estructurasListasEnlazadas.Actividad;
+import estructurasdedatos.estructuraobjeto.Actividad;
 /**
  *
  * @author jhon_

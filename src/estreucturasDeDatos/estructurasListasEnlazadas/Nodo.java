@@ -40,7 +40,7 @@ public class Nodo {
     public void setSiguiente(Nodo siguiente) {
         this.siguiente = siguiente;
     }
-
+    
     public Persona setDato(String nombre, String Cedula, String Direccion,
             float estatura, int edad, String sexo, String Nacionalidad,
             String rh, boolean soltero) {

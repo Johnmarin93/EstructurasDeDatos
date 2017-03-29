@@ -3,7 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package estreucturasDeDatos.estructurasListasEnlazadas;
+package estructurasdedatos.estructuraobjeto;
+
+import estreucturasDeDatos.estructurasListasEnlazadas.Estado;
 
 /**
  *
@@ -16,6 +18,7 @@ public class Actividad {
     private String fecha;
     private float porcentaje;
     private String responsable;
+    Estado  estadoActividad;
    
     public void crearActividad(String codigo,String nombre,String fecha, float porcentaje, 
                   String responsable){
